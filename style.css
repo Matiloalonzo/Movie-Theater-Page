@@ -346,14 +346,14 @@ h1{
    
 }
 footer{
-   
+   position:absolute;
+   width: 100%;
 }
-footer .container{
+footer .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    width: 1300px;
     color: #666;
     background: rgb(54, 54, 54);
 }
