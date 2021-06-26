@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +28,7 @@
                         <li><a href="">Movies</a></li>
                         <li><a href="">Calendar</a></li>
                         <li><a href="">Contact</a></li>
+                        <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </nav>
             </div>
@@ -38,7 +40,7 @@
             <h1>WELCOME TO <br>MOVIE THEATER</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
         </p>
-        <a class="button" href="">JOIN TODAY</a>
+        <a class="button" href=""><i class="fas fa-film"></i> JOIN TODAY</a>
         </div>
 
     </section>
@@ -49,45 +51,91 @@
                 <a href="">BUY TICKETS</a>
                 <a href="">PRE-ORDER SNACKS</a>
             </div>
-            <p>FEATURED</p>
-            <h2>NOW SHOWING</h2>
+            <p id="feat">FEATURED</p>
+            <h2><strong>NOW</strong> SHOWING</h2>
             <div class="movies">
                 <div class="card">
                     <img src="https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/cover-6.jpg" alt="">
                     <h4>Lights Out</h4>
                     <p>1hr 35min |PG</p>
                     <p>Released Aug 12, 2019</p>
-                    <a class="buttons" href="">Get Tickets</a>
+                    <a class="button-card" href="">GET TICKETS</a>
                 </div>
                 <div class="card">
                     <img src="https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/cover-5.jpg" alt="">
                     <h4>Headlight</h4>
                     <p>1hr 35min |PG</p>
                     <p>Released Aug 12, 2019</p>
-                    <a class="buttons" href="">Get Tickets</a>
+                    <a class="button-card" href="">GET TICKETS</a>
                 </div>
                 <div class="card">
                     <img src="https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/cover-4.jpg" alt="">
                     <h4>Cabin</h4>
                     <p>1hr 35min |PG</p>
                     <p>Released Aug 12, 2019</p>
-                    <a class="buttons" href="">Get Tickets</a>
+                    <a class="button-card" href="">GET TICKETS</a>
                 </div>
                 <div class="card">
                     <img src="https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/cover-3.jpg" alt="">
                     <h4>Bridge</h4>
                     <p>1hr 35min |PG</p>
                     <p>Released Aug 12, 2019</p>
-                    <a class="buttons" href="">Get Tickets</a>
+                    <a class="button-card" href="">GET TICKETS</a>
                 </div>
                 <div class="more">
                     <p>More...</p>
                     <a class="button-grey" href="">SEE ALL MOVIES</a>
                     <a class="button-grey" href="">COMING SOON</a>
-                    <input type="search" name="SEARCH" id="">
+                    <input type="text" name="s" placeholder="SEARCH" id="search">
                 </div>
             </div>
         </div>
     </section>
+    <section id="coming-soon">
+        <div class="container">
+            <img src="https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/cover-1.jpg" alt="">
+            <div class="coming">
+                <p id="soon">COMING SOON</p>
+                <h2>theValley</h2>
+                <p id="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a class="watch" href=""><i class="fas fa-play-circle"></i> WATCH TRAILER</a>
+                <a class="view" href="">VIEW ALL COMING SOON</a>
+            </div>
+        </div>
+    </section>
+    <section id="offers">
+        <div class="container">
+            <a href=""><i class="fas fa-bookmark"></i> SEE ALL OFFERS AND PROMOTIONS</a>
+            <div class="info">
+                <div>
+                    <h5>Divi <br> Movies</h5>
+                    <p class="exp">Experience Movies</p>
+                </div>
+                <div>
+                    <h4>ABOUT US</h4>
+                    <p>Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl</p>
+                </div>
+                <div>
+                    <h4>MOVIES</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div>
+                    <h4>INFO</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>Designed by <i class="fab fa-monero"></i>atias</p>
+            <div class="media">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fas fa-rss"></i>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

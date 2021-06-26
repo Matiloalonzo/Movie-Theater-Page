@@ -35,7 +35,7 @@ nav ul{
 }
 
 nav ul li{
-    margin: 0 20px;
+    margin: 0 15px;
     
 }
 
@@ -49,7 +49,8 @@ nav ul li{
 #title .container{
     padding: 80px 100px;
     color: #fff;
-    margin-left: 70px;
+    margin-left: 0px;
+    margin-right: 150px;
     margin-top: 0;
 }
 
@@ -57,6 +58,7 @@ h1{
    font-size: 90px; 
    font-weight: 800;
    margin-bottom: 0;
+   margin-right: 100px;
    font-family: 'Montserrat';
 
 }
@@ -66,6 +68,7 @@ h1{
    font-size: 22px;
     font-weight: 400;
     margin-bottom: 60px;
+    
     
 }
 
@@ -79,17 +82,293 @@ h1{
 }
 
 #title a:hover{
-    background-color: #2ea3f2;
-    border: 0.5px solid #2ea3f2;
+    background-color: #cf37b1;
+    border: 0.5px solid #cf37b1;
     border-radius: 12%;
     
 }
 
 #movie{
     background: #000;
+    background-image: linear-gradient(to top, rgb(0, 0, 0) 95%, rgb(56, 55, 55));
+    color: #666;
+    height: 950px;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;;
+}
+
+.buttons a{
+    color: #fff;
+    border: 1px solid #f9002b;
+    padding: 15px 40px;
+}
+
+.buttons a:hover{
+    background: #cf37b1;
+    border: none;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+}
+
+#feat{
+    color: #f9002b;
+    font-size: 22px;
+    margin-left: 95px;
+    margin-top: 60px;
+}
+
+.container h2{
+    color: #fff;
+    font-size: 60px;
+    margin-left: 95px;
+    margin-top: 0;
+}
+
+#movie .movies{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.movies img{
+    width: 100%;
+}
+
+.card{
+    margin: 0 10px 0 10px;
+}
+
+.card h4{
+    color:#fff;
+    font-size: 18px;
+    margin: auto;
+}
+
+.card p{
+    color: #fff;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.card a{
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 1px solid #f9002b;
+    text-align: center;
+    padding: 5px 10px!important;
+    margin-top: 40px;
+}
+
+.card a:hover{
+    background: #cf37b1;
+    color: white;
+    border: none;
+    padding: 5px 15px!important;
+}
+
+.more{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-left: 30px;
+}
+.more p{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 0;
+    
+}
+.button-grey{
+    font-family: 'Montserrat';
+    font-size: 11px;
+    color:#fff;
+    background: #5151516b;
+    padding: 9px 9px;
+    margin-bottom: 20px;
+    margin-right: 52px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.button-grey:hover{
+    background: #cf37b1;
+}
+
+#search{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    background: #000;
+    color: #666;
+    border: 1px solid #666;
+    padding: 9px 9px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+#coming-soon{
+    background: rgb(0, 0, 0);
+    height: 850px;
+}
+
+#coming-soon .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 50px;
+    margin: 0;
+}
+
+#coming-soon img{
+    width: 70%;
+}
+
+.coming{
+    display: flex;
+    flex-direction: column;
+    margin: 85px 20px;
+    color: white;
+}
+
+.coming #soon{
+    color: #f9002b;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.coming h2{
+    margin-left: 0;
+    font-family: 'Helvetica';
+    font-weight: lighter;
+    font-size: 85px;
+    margin-bottom: 10px;
+}
+
+.coming #content{
+    margin-top: 0;
+    margin-right: 120px;
     color: #666;
 }
 
+.coming a{
+    color: white;
+    letter-spacing: 1px;
+    padding: 20px 10px;
+    border: 1px solid #f9002b;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    margin-right: 330px;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.coming a:hover{
+    background: #cf37b1;
+    border: none;
+}
+
+.coming .view{
+    margin-right: 250px;
+}
+
+.coming .watch{
+    background: #f9002b;
+}
+
+#offers{
+    background: url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/09/theater-01.jpg);
+    background-size: cover;
+    height: 400px;
+    
+    
+}
+
+#offers a{
+    color: white;
+    background: #cf37b1;
+    letter-spacing: 1px;
+    padding: 12px 34px;
+    border: 1px solid #cf37b1;
+    border-radius: 4px;
+    margin-left: 36%;
+    transition: 0.4s;
+}
+
+#offers a:hover{
+    background: white;
+    color:#cf37b1;
+    border: none;
+    padding: 14px 38px;
+}
+
+#offers .info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 15px;
+    
+}
+
+.info h5{
+    color: white;
+    font-size: 46px;
+    margin-bottom: 0;
+}
+
+.info .exp{
+    color: #f9002b;
+    font-size: 25px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 40px;
+    padding: 0;
+}
+
+.info h4{
+    color: #666;
+    margin-left: 95px;
+    letter-spacing: 1px;
+}
+
+.info p{
+    color: white;
+    margin-left: 65px;
+    padding: 0 30px;
+    text-align: left;
+   
+}
+footer{
+   
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 1300px;
+    color: #666;
+    background: rgb(54, 54, 54);
+}
+footer p{
+    margin-left: 5px;
+}
+footer p i{
+    font-size: 20px;
+}
+
+.media i{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
 /*la pagina modelo es url(https://www.elegantthemes.com/layouts/lifestyle/movie-theater-landing-page/live-demo) /* 
 
 
