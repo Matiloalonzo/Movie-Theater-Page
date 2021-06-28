@@ -369,6 +369,135 @@ footer p i{
     margin-left: 5px;
     margin-right: 10px;
 }
+
+@media (max-width: 800px){
+    nav ul{
+        display: none;
+    }
+    .menu p{
+        text-align: center;
+    }
+
+    #title{
+        height: 100%;
+        background-image: url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/09/movie-02.jpg);
+        background-size: cover;
+    }
+    h1{
+        font-size: 50px;
+        margin-top: 0;
+        padding-right: 80px;
+    }
+
+    #title .container{
+        padding: 50px 5px ;
+    }
+
+    #title p{
+        font-size: 15px;
+        font-weight: bold;
+        color: #fff;
+        margin-top: 40px;
+        padding: 0 75px 0 5px;
+    }
+
+    #movie .buttons{
+        flex-direction: column;
+        
+    }
+    .buttons a{
+        margin-bottom: 25px;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    #feat{
+        font-size: 19px;
+        margin-left: 2px;
+        margin-top: 60px;
+    }
+    .container h2{
+        font-size: 30px;
+        margin-left: 2px;
+        margin-bottom: 55px;
+    }
+
+    #movie{
+        height: 2800px;
+    }
+
+    #movie .movies{
+        flex-direction: column;
+    }
+    .movies img{
+        width: 60%;
+    }
+
+    .card{
+        width: 85%;
+        margin: 15px 100px 
+    }
+    .card a{
+        padding: 5px 30px!important;
+    }
+    .more{
+        margin: 40px 100px;
+    }
+    #coming-soon{
+        height: 1280px;
+    }
+
+    #coming-soon .container{
+        flex-direction: column;
+    }
+    #coming-soon img{
+        width: 75%;
+        margin-bottom: 0;
+    }
+    .coming{
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+
+    .coming a{
+        margin-right: 80px;
+    }
+    .coming .view{
+        margin-right: 80px;
+    }
+    .coming #content{
+        margin-right: 30px;
+        margin-top: 0;
+        margin-bottom: 30px;
+
+    }
+    .coming h2{
+        margin-bottom: 0;
+    }
+
+    #offers{
+        height: 900px;
+    }
+    #offers a{
+        font-size: 13px;
+        margin: 0 50px!important;
+    }
+    #offers .info{
+        flex-direction: column;
+        margin: 5px 20px;
+    }
+    footer{
+        ;
+    }
+    footer p{
+        display: none;
+    }
+
+    footer .footer{
+        justify-content: center;
+
+    }
+
+}
 /*la pagina modelo es url(https://www.elegantthemes.com/layouts/lifestyle/movie-theater-landing-page/live-demo) /* 
 
 
